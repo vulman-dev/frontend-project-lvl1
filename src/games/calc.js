@@ -1,4 +1,4 @@
-import { getRandomInt } from '../getRandomInt.js';
+import getRandomInt from '../getRandomInt.js';
 import gameRounds from '../index.js';
 
 const rulesGame = 'What is the result of the expression?';
@@ -6,8 +6,8 @@ const rulesGame = 'What is the result of the expression?';
 const randomOperationGenerator = () => {
     const operation = ['+', '-', '*'];
     let result = '';
-    const i = getRandomInt(3);
-    result = `${getRandomInt(30)} ${operation[i]} ${getRandomInt(20)}`;
+    const i = getRandomInt(0, (operation.length - 1));
+    result = `${getRandomInt(1, 30)} ${operation[i]} ${getRandomInt(1, 20)}`;
     return result;
 };
 

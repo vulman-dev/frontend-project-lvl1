@@ -1,4 +1,4 @@
-import { getRandomInt } from '../getRandomInt.js';
+import getRandomInt from '../getRandomInt.js';
 import gameRounds from '../index.js';
 
 const rulesGame = 'Answer "yes" if the number is even otherwise answer "no"';
@@ -11,7 +11,7 @@ const isEven = (randomNumber) => {
 };
 
 export const brainEven = () => {
-    const randomNumber = getRandomInt(20);
+    const randomNumber = getRandomInt(1, 20);
     const rightAnswer = (isEven(randomNumber) ? 'yes' : 'no');
     return [randomNumber, rightAnswer];
 };
