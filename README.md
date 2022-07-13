@@ -1,11 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/vulman-dev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/vulman-dev/frontend-project-lvl1/actions)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-https://asciinema.org/a/NFOEdZ63CPzgItG442l9iGz1i
-https://asciinema.org/a/zfbzcFXgYWzy0NE2iiOTLYNLw
-https://asciinema.org/a/LMG1WOpFVQWqonx4NqhX1V6su
-https://asciinema.org/a/pzB6cYiqrTsSPrYCxtGgMNf5t
-https://asciinema.org/a/JuXSUhtxxrEiSZq8Qynokv7y7
 # Игры разума
 
 ## Описание проекта:
@@ -47,4 +39,16 @@ Node.js версии 13 и выше.
 Удачи!
 
 ### Brain-even asciinema
-https://asciinema.org/a/NFOEdZ63CPzgItG442l9iGz1i
+[![asciicast](https://asciinema.org/a/NFOEdZ63CPzgItG442l9iGz1i.svg)](https://asciinema.org/a/NFOEdZ63CPzgItG442l9iGz1i)
+### Brain-calc asciinema
+[![asciicast](https://asciinema.org/a/zfbzcFXgYWzy0NE2iiOTLYNLw.svg)](https://asciinema.org/a/zfbzcFXgYWzy0NE2iiOTLYNLw)
+### Brain-gcd asciinema
+[![asciicast](https://asciinema.org/a/LMG1WOpFVQWqonx4NqhX1V6su.svg)](https://asciinema.org/a/LMG1WOpFVQWqonx4NqhX1V6su)
+### Brain-progression asciinema
+[![asciicast](https://asciinema.org/a/pzB6cYiqrTsSPrYCxtGgMNf5t.svg)](https://asciinema.org/a/pzB6cYiqrTsSPrYCxtGgMNf5t)
+### Brain-prime asciinema
+[![asciicast](https://asciinema.org/a/JuXSUhtxxrEiSZq8Qynokv7y7.svg)](https://asciinema.org/a/JuXSUhtxxrEiSZq8Qynokv7y7)
+
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/vulman-dev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/vulman-dev/frontend-project-lvl1/actions)
+<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
