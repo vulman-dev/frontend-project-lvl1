@@ -1,23 +1,18 @@
 import getRandomInt from '../getRandomInt.js';
-import gameRounds from '../index.js';
+import engineGame from '../index.js';
 
 const rulesGame = 'Answer "yes" if the number is even otherwise answer "no"';
 
-const isEven = (randomNumber) => {
-    if (randomNumber % 2 === 0) {
-        return true;
-    }
-    return false;
-};
+const isEven = (num) => num % 2 === 0;
 
-export const brainEven = () => {
+const getRoundData = () => {
     const randomNumber = getRandomInt(1, 20);
     const rightAnswer = (isEven(randomNumber) ? 'yes' : 'no');
     return [randomNumber, rightAnswer];
 };
 
 const startBrainEvenGame = () => {
-    gameRounds(rulesGame, brainEven);
+    engineGame(rulesGame, getRoundData);
 };
 
 export default startBrainEvenGame;

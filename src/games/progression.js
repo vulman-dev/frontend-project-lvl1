@@ -1,5 +1,5 @@
 import getRandomInt from '../getRandomInt.js';
-import gameRounds from '../index.js';
+import engineGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -13,7 +13,7 @@ const progressionGen = (progressionLength, iterationOfProgress, firstElementOfPr
     return arrayOfProgress;
 };
 
-export const brainPrograssion = () => {
+const getRoundData = () => {
     const progressionLength = getRandomInt(5, 10);
     const iterationOfProgress = getRandomInt(1, 10);
     const firstElementOfProgress = getRandomInt(1, 10);
@@ -31,7 +31,7 @@ export const brainPrograssion = () => {
 };
 
 const startBrainProgressionGame = () => {
-    gameRounds(description, brainPrograssion);
+    engineGame(description, getRoundData);
 };
 
 export default startBrainProgressionGame;

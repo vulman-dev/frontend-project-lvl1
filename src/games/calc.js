@@ -1,5 +1,5 @@
 import getRandomInt from '../getRandomInt.js';
-import gameRounds from '../index.js';
+import engineGame from '../index.js';
 
 const rulesGame = 'What is the result of the expression?';
 
@@ -11,7 +11,7 @@ const randomOperationGenerator = () => {
     return result;
 };
 
-export const brainCalc = () => {
+const getRoundData = () => {
     const randomOperation = randomOperationGenerator();
     const separator = ' ';
     const operation = randomOperation.split(separator);
@@ -38,7 +38,7 @@ export const brainCalc = () => {
 };
 
 const startBrainCalcGame = () => {
-    gameRounds(rulesGame, brainCalc);
+    engineGame(rulesGame, getRoundData);
 };
 
 export default startBrainCalcGame;
