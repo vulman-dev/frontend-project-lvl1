@@ -4,23 +4,16 @@ import engineGame from '../index.js';
 const rulesGame = 'What is the result of the expression?';
 
 const calculatingCorrectResult = (number1, number2, selectSign) => {
-  let rightAnswer = 0;
   switch (selectSign) {
     case '+':
-      rightAnswer = number1 + number2;
-      break;
+      return String(number1 + number2);
     case '-':
-      rightAnswer = number1 - number2;
-      break;
+      return String(number1 - number2);
     case '*':
-      rightAnswer = number1 * number2;
-      break;
+      return String(number1 * number2);
     default:
       throw new Error(`Unknown operator: ${selectSign}`);
   }
-
-  rightAnswer = String(rightAnswer);
-  return rightAnswer;
 };
 
 const getRoundData = () => {
