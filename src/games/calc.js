@@ -15,17 +15,17 @@ const getRoundData = () => {
   let rightAnswer = 0;
   switch (selectSign) {
     case '+':
-        rightAnswer = number1 + number2;
-        break;
+      rightAnswer = number1 + number2;
+      break;
     case '-':
-        rightAnswer = number1 - number2;
-        break;
+      rightAnswer = number1 - number2;
+      break;
     case '*':
-        rightAnswer = number1 * number2;
-        break;
+      rightAnswer = number1 * number2;
+      break;
     default:
-        return Error;
-}
+      return Error;
+  }
 
   rightAnswer = String(rightAnswer);
   return [answer, rightAnswer];

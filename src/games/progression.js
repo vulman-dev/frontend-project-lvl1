@@ -18,7 +18,7 @@ const getRoundData = () => {
   const iterationOfProgress = getRandomInt(1, 10);
   const firstElementOfProgress = getRandomInt(1, 10);
 
-// eslint-disable-next-line max-len
+  // eslint-disable-next-line max-len
   let progression = generatingProgress(progressionLength, iterationOfProgress, firstElementOfProgress);
 
   const hiddenNumberIndexi = getRandomInt(5, progressionLength);
