@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // eslint-disable-next-line import/extensions
-import { greeting } from '../src/cli.js';
+import { getUserNameAndGreeting } from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
-greeting();
+getUserNameAndGreeting();
