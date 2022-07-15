@@ -3,7 +3,7 @@ import engineGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
-const progressionGen = (progressionLength, iterationOfProgress, firstElementOfProgress) => {
+const generatingProgress = (progressionLength, iterationOfProgress, firstElementOfProgress) => {
     const arrayOfProgress = [];
     arrayOfProgress.push(firstElementOfProgress);
     for (let i = 0; i < progressionLength; i += 1) {
@@ -19,11 +19,11 @@ const getRoundData = () => {
     const firstElementOfProgress = getRandomInt(1, 10);
 
     // eslint-disable-next-line max-len
-    let progression = progressionGen(progressionLength, iterationOfProgress, firstElementOfProgress);
+    let progression = generatingProgress(progressionLength, iterationOfProgress, firstElementOfProgress);
 
-    const i = getRandomInt(5, progressionLength);
-    let rightAnswer = progression[i];
-    progression[i] = '..';
+    const hiddenNumberIndexi = getRandomInt(5, progressionLength);
+    let rightAnswer = progression[hiddenNumberIndexi];
+    progression[hiddenNumberIndexi] = '..';
     progression = progression.join(' ');
     rightAnswer = String(rightAnswer);
 
