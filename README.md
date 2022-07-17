@@ -12,7 +12,7 @@ Node.js версии 13 и выше.
 
 ## Инструкция по установке:
 1. Склонируйте репозиторий локально
-`git clone git@github.com:writeralex/frontend-project-lvl1.git`
+`git clone git@github.com:vulman-dev/frontend-project-lvl1`
 2. Перейдите в созданную директорию
 `cd frontend-project-lvl1`
 3. Установите зависимости
